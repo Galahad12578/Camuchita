@@ -1,0 +1,28 @@
+/* gracias.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.thank-you-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #388e3c;
+}
+
+p {
+    color: #4caf50;
+    font-size: 18px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content=" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="from_1.css">
+    <title>La Sazón de Camuchita</title>
+</head>
+<body>
+    <!-- Encabezamiento -->
+    <header class="header">
+        <div class="container-header">
+            <h1>LA SAZÓN DE CAMUCHITA</h1>
+        </div>
+    </header>
+
+    <!-- Formulario de la página -->
+    <form action="Index2.html" method="post"> <!-- Redirige a Index2.html -->
+        <div class="forms-grupos">
+            <label><b>Nombre</b></label>
+            <input type="text" name="name-label" id="nombre" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="forms-grupos">
+            <label><b>Gmail</b></label>
+            <input type="text" name="email-label" id="email" placeholder="Ingrese su Gmail" required>
+        </div>
+
+        <div class="forms-grupos">
+            <p><b>¿En qué turno vino?</b></p>
+            <label>
+                <select name="Usuario-opcion" id="select" class="selectop">
+                    <option disabled selected value>Selecciona el turno</option>
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="forms-grupos">
+            <p><b>¿Qué tan buena fue tu experiencia?</b></p>
+            <label>
+                <input type="radio" name="opcion-user" id="excelente">
+                <b>Excelente</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user" id="buena">
+                <b>Buena</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user" id="regular">
+                <b>Regular</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user" id="mala">
+                <b>Mala</b>
+            </label>
+
+            <p><b>¿Cómo calificarías la calidad de la comida?</b></p>
+            <label>
+                <input type="radio" name="opcion-user1" id="excelente">
+                <b>Excelente</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user1" id="buena">
+                <b>Buena</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user1" id="regular">
+                <b>Regular</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user1" id="mala">
+                <b>Mala</b>
+            </label>
+
+            <p><b>¿Con qué frecuencia visitas nuestro restaurante?</b></p>
+            <label>
+                <input type="radio" name="opcion-user2" id="adiario">
+                <b>A diario</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user2" id="primeravez">
+                <b>Primera vez</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user2" id="unavezalasemana">
+                <b>Una vez a la semana</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user2" id="unavezalmes">
+                <b>Una vez al mes</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user2" id="casinunca">
+                <b>Casi nunca</b>
+            </label>
+        </div>
+
+        <div class="forms-grupos">
+            <p><b>¿Cómo encontraste la limpieza del restaurante?</b></p>
+            <select name="limpieza-op" id="limpieza" class="selectop">
+                <option disabled selected value>Selecciona una opción</option>
+                <option value="Excelente">Excelente</option>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+            </select>
+        </div>
+
+        <div class="forms-grupos">
+            <p><b>¿Qué te gustaría que añadieramos al menú o en general?</b></p>
+            <input type="text" name="commentes" id="preguntas2" placeholder="Ingresa tu comentario">
+        </div>
+
+        <div class="forms-grupos">
+            <p><b>Escríbenos tus comentarios</b></p>
+            <input type="text1" name="commentes" id="comentarios" placeholder="Escribe tu comentario...">
+        </div>
+
+        <!-- Botón enviar -->
+        <div class="button">
+            <input type="submit" value="ENVIAR">
+        </div>
+    </form>
+</body>
+</html>
